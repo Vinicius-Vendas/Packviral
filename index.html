@@ -1,0 +1,150 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pack Shopee Viral</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background-color: #f8f8f8;
+      color: #111;
+    }
+    header {
+      background: linear-gradient(135deg, #ff6600, #ff3300);
+      color: white;
+      padding: 60px 20px 40px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .highlight {
+      background: #ffe9dc;
+      border-left: 6px solid #ff6600;
+      padding: 20px;
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+    }
+    .button {
+      background: #ff3300;
+      color: white;
+      padding: 15px 30px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 8px;
+      display: inline-block;
+      margin: 20px 10px 40px;
+    }
+    .benefits, .receive {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .benefit, .item {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      font-weight: 500;
+    }
+    .cta {
+      text-align: center;
+      background: #ffeedf;
+      padding: 50px 20px;
+    }
+    .cta h2 {
+      font-size: 2rem;
+    }
+    .timer {
+      font-size: 1.5rem;
+      color: #d10000;
+      margin-top: 10px;
+    }
+    .guarantee {
+      background: #fff3e6;
+      border-radius: 10px;
+      padding: 30px;
+      font-size: 1.1rem;
+      margin: 40px 0;
+    }
+    .testimonials {
+      background: #f3f3f3;
+      padding: 40px 20px;
+      border-radius: 10px;
+    }
+    .testimonial {
+      font-style: italic;
+      margin-bottom: 20px;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Desbloqueie as Vendas na Shopee com o Pack Viral!</h1>
+    <p>Sou o Vinicius e estou aqui pra te ajudar a vender todos os dias com conteúdos prontos e estratégias testadas!</p>
+  </header>  <div class="section">
+    <div class="highlight">
+      Você está a um passo de transformar suas vendas na Shopee. Com o Pack Shopee Viral, você recebe os conteúdos certos para viralizar seus anúncios e vender todos os dias.
+    </div><h2>O que você vai receber:</h2>
+<div class="receive">
+  <div class="item">+20 vídeos prontos e editados para usar na Shopee</div>
+  <div class="item">E-book completo com as estratégias que usei pra vender todos os dias</div>
+  <div class="item">Acesso imediato ao pack via Telegram</div>
+  <div class="item">Suporte direto comigo, Vinicius</div>
+</div>
+
+<h2 style="margin-top: 60px;">Por que esse Pack funciona?</h2>
+<div class="benefits">
+  <div class="benefit">Vídeos que seguem o algoritmo e tendências da Shopee</div>
+  <div class="benefit">Conteúdo testado e validado por vendedores reais</div>
+  <div class="benefit">Pronto pra copiar e colar – sem esforço</div>
+  <div class="benefit">Acesso rápido, direto no Telegram</div>
+</div>
+
+  </div>  <div class="section testimonials">
+    <h2>Depoimentos de quem já usou</h2>
+    <div class="testimonial">"Com o pack do Vinicius, meu produto começou a aparecer muito mais. Vendi 3x mais em uma semana!"</div>
+    <div class="testimonial">"Eu não sabia como fazer vídeos. Agora só uso os prontos e tá dando muito certo!"</div>
+    <div class="testimonial">"A estratégia que tá no e-book realmente funciona. É direto ao ponto e fácil de aplicar."</div>
+  </div>  <div class="section guarantee">
+    <strong>Garantia incondicional:</strong> se em até 7 dias você não estiver satisfeito com o conteúdo, devolvemos seu dinheiro sem perguntas. Você não tem risco.
+  </div>  <div class="cta">
+    <h2>Oferta por tempo limitado!</h2>
+    <p>Aproveite agora antes que o preço volte ao normal:</p>
+    <div class="timer" id="countdown">00:15:00</div>
+    <a class="button" href="https://pay.kiwify.com.br/IbzcjSH">Acessar por R$9,99</a>
+    <a class="button" style="background:#ff6600;" href="https://pay.kiwify.com.br/mLA0vnq">Combo completo por R$20,00</a>
+  </div>  <footer>
+    Copyright © 2025 - Pack Shopee Viral. Todos os direitos reservados.
+  </footer>  <script>
+    let time = 900;
+    const countdown = document.getElementById('countdown');
+    setInterval(() => {
+      if (time <= 0) return;
+      time--;
+      const min = String(Math.floor(time / 60)).padStart(2, '0');
+      const sec = String(time % 60).padStart(2, '0');
+      countdown.textContent = `${min}:${sec}`;
+    }, 1000);
+  </script></body>
+</html>
